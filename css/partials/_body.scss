@@ -1,0 +1,38 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+.themes-container {
+	position: absolute;
+	height: 150px;
+	width: 50px;
+	right: 15px;
+	bottom: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#modes {
+	opacity: 0.2;
+	&:hover {
+		opacity: 1;
+	}
+}
+#moon {
+	display: none;
+	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
+}
+#sun {
+	display: none;
+	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
+}
