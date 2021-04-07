@@ -1,0 +1,235 @@
+/*navbar container */
+nav {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#494949), to(#ffffff));
+  background-image: linear-gradient(to bottom right, #494949, #ffffff);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*Profile picture*/
+  /*Sandwich toggle */
+}
+
+nav img {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+nav label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+  margin: auto 0;
+  width: 50px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + .menu-items {
+  display: block;
+}
+
+.menu-items {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#474747), to(#ffffff));
+  background-image: linear-gradient(to top right, #474747, #ffffff);
+  position: relative;
+  padding-top: 50px;
+  width: 70%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.menu-items a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu-items a:hover {
+  background-color: burlywood;
+  border-radius: 10px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+@media screen and (max-width: 850px) {
+  .menu-items a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    font-size: 24px;
+  }
+  nav label {
+    display: none;
+  }
+  nav img {
+    width: 60px;
+  }
+  .menu-items {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    font-size: 24px;
+  }
+  nav img {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid rgba(138, 137, 137, 0.5);
+  }
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.themes-container {
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  right: 15px;
+  bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#modes {
+  opacity: 0.2;
+}
+
+#modes:hover {
+  opacity: 1;
+}
+
+#moon {
+  display: none;
+  opacity: 0.5;
+}
+
+#moon:hover {
+  opacity: 1;
+}
+
+#sun {
+  display: none;
+  opacity: 0.5;
+}
+
+#sun:hover {
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 30%;
+}
+
+h3 {
+  position: relative;
+  margin-top: 10%;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40%;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.social-network-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 150px;
+  font-size: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social {
+  width: 40px;
+}
+
+.footer {
+  position: absolute;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 10px;
+  vertical-align: middle;
+  line-height: 150px;
+  bottom: 0px;
+  height: 150px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */
