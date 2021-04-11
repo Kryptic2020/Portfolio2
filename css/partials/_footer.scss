@@ -8,4 +8,12 @@
 	line-height: 150px;
 	bottom: 0px;
 	height: 150px;
+	background-color: #93c2fa;
+	z-index: -5;
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		width: 60%;
+	}
 }
