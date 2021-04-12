@@ -268,6 +268,9 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .home-page-hight {
+    min-height: 1024px;
+  }
   .h1-home {
     margin-top: 20%;
   }
@@ -276,7 +279,10 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
+  .home-page-hight {
+    min-height: 638px;
+  }
   .h1-home {
     margin-top: 5%;
   }
@@ -289,8 +295,7 @@ button:hover {
   }
 }
 
-.page-hight {
-  height: 100%;
+.about-page-hight {
   min-height: 1180px;
 }
 
@@ -313,7 +318,7 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .page-hight {
+  .about-page-hight {
     min-height: 1024px;
   }
   .btn-about {
@@ -328,7 +333,7 @@ button:hover {
 }
 
 @media screen and (min-width: 992px) {
-  .page-hight {
+  .about-page-hight {
     min-height: 900px;
   }
   .h1-about {

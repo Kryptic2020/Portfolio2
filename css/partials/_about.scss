@@ -1,7 +1,6 @@
 @import 'colors';
 
-.page-hight {
-	height: 100%;
+.about-page-hight {
 	min-height: 1180px;
 }
 .btn-about {
@@ -21,7 +20,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	.page-hight {
+	.about-page-hight {
 		min-height: 1024px;
 	}
 	.btn-about {
@@ -36,7 +35,7 @@
 }
 
 @media screen and (min-width: 992px) {
-	.page-hight {
+	.about-page-hight {
 		min-height: 900px;
 	}
 	.h1-about {
