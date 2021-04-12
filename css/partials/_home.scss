@@ -1,57 +1,49 @@
 @import 'colors';
 
-h1 {
+.h1-home {
 	text-align: center;
 	position: relative;
 	margin-top: 30%;
 }
 
-h3 {
+.h3-home {
 	position: relative;
 	margin-top: 10%;
 }
 
-section {
+.section-home {
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 30%;
 	text-align: center;
 }
-button {
-	background-color: $primary;
+
+.btn-home {
 	height: 50px;
 	width: 200px;
-	color: $secondary;
-	font-size: 16px;
-	border-radius: 10px;
 	margin-top: 10px;
-	&:hover {
-		background-color: $warning;
-		border: 2px solid $warning;
-		color: $primary;
-	}
 }
 @media screen and (min-width: 768px) {
-	h1 {
+	.h1-home {
 		margin-top: 20%;
 	}
 
-	section {
+	.section-home {
 		margin-top: 20%;
 	}
 }
 
 @media screen and (min-width: 900px) {
-	h1 {
+	.h1-home {
 		margin-top: 5%;
 	}
-	h3 {
+	.h3-home {
 		position: relative;
 		margin-top: 2%;
 	}
 
-	section {
+	.section-home {
 		margin-top: 5%;
 	}
 }
