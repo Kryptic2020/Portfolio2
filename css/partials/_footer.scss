@@ -10,10 +10,12 @@
 	height: 150px;
 	background-color: #93c2fa;
 	z-index: -5;
+	font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
 	.footer {
 		width: 60%;
+		font-size: 20px;
 	}
 }
