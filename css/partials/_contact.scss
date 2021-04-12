@@ -1,0 +1,64 @@
+@import 'colors';
+
+.h1-contact {
+	margin: 10% 0;
+}
+.contact-page-hight {
+	min-height: 100vh;
+}
+textarea {
+	padding: 10px;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 0 auto;
+}
+.contact-label {
+	text-align: left;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+section input {
+	height: 40px;
+	width: 100%;
+	padding: 0 10px;
+}
+.contact-button {
+	width: 200px;
+	height: 50px;
+	margin: 40px auto;
+}
+@media screen and (min-width: 768px) {
+	.h1-contact {
+		margin: 5% 0;
+	}
+	section input {
+		height: 50px;
+	}
+	.contact-button {
+		margin: 40px auto;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.h1-contact {
+		margin: 3% 0 0 0;
+	}
+	.contact-label {
+		text-align: left;
+		padding-top: 10px;
+	}
+	section input {
+		height: 50px;
+	}
+	.contact-button {
+		margin: 40px auto;
+	}
+	.contact-container {
+		width: 40%;
+	}
+}
