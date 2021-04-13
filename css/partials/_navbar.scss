@@ -1,4 +1,4 @@
-/*navbar container */
+//Header Navbar
 nav {
 	position: relative;
 	width: 100%;
@@ -20,7 +20,7 @@ nav {
 		border-radius: 30%;
 		/*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 	}
-	/*Sandwich toggle */
+	//Sandwich toggle Sidebar
 	label {
 		box-sizing: border-box;
 		float: right;
@@ -41,6 +41,7 @@ nav {
 	color: #000000;
 }
 
+//Sidebar - only for mobile layout
 .menu-items {
 	background-image: linear-gradient(
 		to top left,
@@ -74,7 +75,6 @@ nav {
 			color: #000000;
 			transition: 0.3s;
 			transform: translateY(-12px);
-
 			transition-timing-function: ease-out;
 		}
 		@media screen and (max-width: 850px) {
@@ -85,6 +85,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+	//tablet layout
 	nav {
 		font-size: 18px;
 		label {
@@ -100,6 +101,7 @@ nav {
 			opacity: 0.2;
 		}
 	}
+	//navbar for tablet layout
 	.menu-items {
 		position: relative;
 		display: block;
@@ -132,6 +134,7 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
+	//desktop layout
 	nav {
 		font-size: 24px;
 	}

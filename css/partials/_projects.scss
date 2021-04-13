@@ -7,6 +7,7 @@
 .project-page-hight {
 	height: 2600px;
 }
+//card component
 .project-box {
 	width: 90%;
 	margin: 20px auto;
@@ -25,6 +26,7 @@
 	line-height: 25px;
 	padding: 15px 0;
 }
+// image of card component
 .project-img {
 	width: 100%;
 }
@@ -34,6 +36,7 @@
 	margin: 5% auto;
 }
 @media screen and (min-width: 768px) {
+	//tablet layout
 	.h1-projects {
 		margin: 5% 0;
 	}
@@ -57,6 +60,7 @@
 }
 
 @media screen and (min-width: 992px) {
+	//desktop layout
 	.h1-projects {
 		margin: 3% 0;
 	}

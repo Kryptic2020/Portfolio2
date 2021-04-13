@@ -3,6 +3,8 @@
 .h1-resume {
 	margin: 10% 0;
 }
+//section component
+
 .resume-text {
 	font-size: 16px;
 	line-height: 25px;
@@ -17,6 +19,8 @@
 .resume-page-hight {
 	height: 2330px;
 }
+
+//skill box component
 .skills-box {
 	background-color: #d9d9d9;
 	width: 90%;
@@ -40,6 +44,7 @@
 	height: 60px;
 	margin: auto auto;
 }
+
 .skills-img-box {
 	position: relative;
 	display: flex;
@@ -55,7 +60,7 @@
 	height: 30px;
 	display: none;
 }
-
+//skill icons component
 #html5 {
 	&:hover .skills-img {
 		transform: rotateY(360deg);
@@ -268,6 +273,7 @@
 		margin: auto;
 	}
 }
+//skill icons animations
 
 @keyframes rotation {
 	0% {
@@ -287,6 +293,7 @@
 	}
 }
 
+//skill reactJS icon animations
 @keyframes rotationX {
 	0% {
 		/*transform: rotateY(0deg);*/
@@ -306,6 +313,7 @@
 }
 
 @media screen and (min-width: 600px) {
+	//Small size tablet layout
 	.h1-skills {
 		padding: 5% 0;
 	}
@@ -321,12 +329,14 @@
 }
 
 @media screen and (min-width: 768px) {
+	//tablet layout
 	.resume-page-hight {
 		height: 1750px;
 	}
 	.h1-resume {
 		margin: 5% 0;
 	}
+
 	.resume-text {
 		font-size: 20px;
 		line-height: 30px;
@@ -348,18 +358,21 @@
 	}
 }
 @media screen and (min-width: 992px) {
+	//desktop layout
 	.resume-page-hight {
 		height: 1620px;
 	}
 	.h1-resume {
 		margin: 3% 0;
 	}
+
 	.resume-text {
 		font-size: 20px;
 		line-height: 30px;
 		padding: 0% 10% 2% 10%;
 		text-align: left;
 	}
+
 	.skills-box {
 		height: 720px;
 		width: 80%;

@@ -6,10 +6,8 @@
 .contact-page-hight {
 	min-height: 100vh;
 }
-textarea {
-	padding: 10px;
-}
 
+//contact form
 .contact-container {
 	display: flex;
 	flex-direction: column;
@@ -20,6 +18,9 @@ textarea {
 	text-align: left;
 	padding-top: 20px;
 	font-weight: bold;
+}
+textarea {
+	padding: 10px;
 }
 
 section input {
@@ -33,6 +34,7 @@ section input {
 	margin: 40px auto;
 }
 @media screen and (min-width: 768px) {
+	//tablet layout
 	.h1-contact {
 		margin: 5% 0;
 	}
@@ -45,6 +47,7 @@ section input {
 }
 
 @media screen and (min-width: 992px) {
+	//desktop layout
 	.h1-contact {
 		margin: 3% 0 0 0;
 	}

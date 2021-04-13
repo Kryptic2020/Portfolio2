@@ -19,6 +19,8 @@ h3 {
 	font-size: 16px;
 	font-weight: bold;
 }
+
+//pre-styled generic button
 button {
 	background-color: $primary;
 	color: $secondary;
@@ -27,7 +29,7 @@ button {
 		background-color: $hovering;
 	}
 }
-
+// themes components
 .themes-container {
 	position: absolute;
 	height: 100px;
@@ -67,6 +69,7 @@ button {
 	z-index: -5;
 }
 @media screen and (min-width: 768px) {
+	//tablet layout
 	h1 {
 		font-size: 32px;
 		font-weight: bold;

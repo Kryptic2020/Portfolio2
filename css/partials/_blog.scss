@@ -11,6 +11,7 @@
 	margin: 0 auto;
 	width: 90%;
 }
+//blog cards - list of blogs
 .blog-box {
 	background-image: linear-gradient(
 		to top left,
@@ -25,7 +26,7 @@
 		opacity: 0.7;
 	}
 }
-
+//card image
 .blog-img {
 	padding: 15px 5%;
 	width: 100%;
@@ -56,6 +57,7 @@
 }
 
 @media screen and (min-width: 768px) {
+	//tablet layout
 	.blog-page-hight {
 		min-height: 2100px;
 	}
@@ -110,6 +112,7 @@
 }
 
 @media screen and (min-width: 992px) {
+	//desktop layout
 	.blog-page-hight {
 		min-height: 1470px;
 	}

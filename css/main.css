@@ -1,4 +1,3 @@
-/*navbar container */
 nav {
   position: relative;
   width: 100%;
@@ -15,7 +14,6 @@ nav {
   display: -ms-flexbox;
   display: flex;
   /*Profile picture*/
-  /*Sandwich toggle */
 }
 
 nav img {
@@ -319,6 +317,7 @@ button:hover {
   min-height: 1180px;
 }
 
+/* Styling about section */
 .btn-about {
   position: relative;
   width: 200px;
@@ -1139,10 +1138,6 @@ button:hover {
   min-height: 100vh;
 }
 
-textarea {
-  padding: 10px;
-}
-
 .contact-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1159,6 +1154,10 @@ textarea {
   text-align: left;
   padding-top: 20px;
   font-weight: bold;
+}
+
+textarea {
+  padding: 10px;
 }
 
 section input {
