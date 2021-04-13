@@ -323,7 +323,7 @@ button:hover {
   position: relative;
   width: 200px;
   height: 50px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .h1-about {
@@ -339,25 +339,21 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   .about-page-hight {
-    min-height: 1024px;
-  }
-  .btn-about {
-    position: relative;
-    width: 200px;
-    height: 50px;
-    margin-top: 10%;
+    min-height: 1200px;
   }
   .p-about {
     margin: 0 50px;
+    font-size: 20px;
+    line-height: 35px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .about-page-hight {
-    min-height: 900px;
+    min-height: 1000px;
   }
   .h1-about {
-    margin: 5% 0;
+    margin: 3% 0;
   }
   .btn-about {
     position: relative;
@@ -367,8 +363,8 @@ button:hover {
   }
   .p-about {
     margin: 0 150px;
-    padding-top: 15px;
-    line-height: 20px;
+    line-height: 30px;
+    margin-top: 0;
   }
 }
 
@@ -390,6 +386,7 @@ button:hover {
 }
 
 .project-text {
+  width: 100%;
   text-align: left;
   line-height: 25px;
   padding: 15px 0;
@@ -450,7 +447,7 @@ button:hover {
     padding-top: 15%;
     padding-left: 20px;
   }
-  .col-6 {
+  .project-col-6 {
     width: 50%;
   }
 }
