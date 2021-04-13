@@ -247,6 +247,21 @@ button:hover {
   z-index: -5;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
 .h1-home {
   text-align: center;
   position: relative;
@@ -357,8 +372,91 @@ button:hover {
   }
 }
 
+.h1-projects {
+  margin: 10% 0;
+}
+
+.project-page-hight {
+  height: 2600px;
+}
+
+.project-box {
+  width: 90%;
+  margin: 20px auto;
+  padding: 5%;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#93c2fa), color-stop(#93c2fa), to(#ffffff));
+  background-image: linear-gradient(to top left, #93c2fa, #93c2fa, #ffffff);
+  border-radius: 10px;
+}
+
+.project-text {
+  text-align: left;
+  line-height: 25px;
+  padding: 15px 0;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-btn {
+  width: 60%;
+  height: 30px;
+  margin: 5% auto;
+}
+
+@media screen and (min-width: 768px) {
+  .h1-projects {
+    margin: 5% 0;
+  }
+  .project-page-hight {
+    height: 3600px;
+  }
+  .project-box {
+    margin: 30px auto;
+  }
+  .project-text {
+    text-align: left;
+    line-height: 35px;
+    font-size: 24px;
+    padding: 30px 0;
+  }
+  .project-btn {
+    width: 60%;
+    height: 40px;
+    margin: 5% auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .h1-projects {
+    margin: 3% 0;
+  }
+  .project-page-hight {
+    height: 2700px;
+  }
+  .project-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .project-text {
+    text-align: left;
+    line-height: 35px;
+    font-size: 24px;
+    padding: 30px 0;
+  }
+  .project-img {
+    padding-top: 15%;
+    padding-left: 20px;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}
+
 .blog-page-hight {
-  min-height: 2500px;
+  min-height: 2700px;
 }
 
 .h1-blog {
@@ -367,6 +465,8 @@ button:hover {
 
 .h2-blog {
   color: #000000;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .blog-box {
@@ -382,7 +482,7 @@ button:hover {
 }
 
 .blog-img {
-  padding: 15px;
+  padding: 15px 5%;
   width: 100%;
 }
 
@@ -409,13 +509,13 @@ button:hover {
 }
 
 .blog-text {
-  padding: 15px;
+  padding: 15px 5%;
   text-align: left;
 }
 
 @media screen and (min-width: 768px) {
   .blog-page-hight {
-    min-height: 1800px;
+    min-height: 2100px;
   }
   .h1-blog {
     margin: 10% 0 5% 0;
@@ -482,8 +582,18 @@ button:hover {
   }
 }
 
-.blog-page-hight {
-  min-height: 1500px;
+.blogposts-page-hight {
+  min-height: 3200px;
+}
+
+.blogposts-text {
+  line-height: 30px;
+  padding: 20px 15px;
+  text-align: left;
+}
+
+.h2-blogposts {
+  padding: 5px 15px;
 }
 
 .nav-blogposts {
@@ -503,6 +613,525 @@ button:hover {
 .arrow {
   width: 50px;
   height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .blogposts-page-hight {
+    min-height: 3150px;
+  }
+  .h2-blogposts {
+    padding: 5px 5%;
+  }
+  .blogposts-img {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .nav-blogposts {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .col-12 {
+    width: 90%;
+  }
+  .blogposts-text {
+    font-size: 24px;
+    line-height: 35px;
+    padding: 5%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .blogposts-page-hight {
+    min-height: 2850px;
+  }
+  .blogposts-img {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .nav-blogposts {
+    width: 30%;
+    margin: 5% auto;
+  }
+  .col-12 {
+    width: 80%;
+  }
+  .blogposts-text {
+    line-height: 35px;
+  }
+}
+
+.h1-resume {
+  margin: 10% 0;
+}
+
+.resume-text {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 5%;
+  text-align: left;
+}
+
+.resume-btn {
+  width: 200px;
+  height: 30px;
+}
+
+.resume-page-hight {
+  height: 2330px;
+}
+
+.skills-box {
+  background-color: #d9d9d9;
+  width: 90%;
+  margin: 10% auto;
+  border-radius: 10px;
+  height: 1380px;
+}
+
+.h1-skills {
+  padding: 10% 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 50%;
+  padding-top: 30px;
+}
+
+.skills-img {
+  width: 60px;
+  height: 60px;
+  margin: auto auto;
+}
+
+.skills-img-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.7s ease-in-out;
+  transition: -webkit-transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
+}
+
+.skills-btn {
+  width: 120px;
+  height: 30px;
+  display: none;
+}
+
+#html5:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#html5:hover .skills-btn {
+  display: block;
+  margin: auto;
+}
+
+#css3:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#css3:hover .skills-btn {
+  display: block;
+  margin: auto;
+}
+
+#js:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#js:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#react:hover .skills-img {
+  -webkit-animation: rotationX 3.5s infinite linear;
+          animation: rotationX 3.5s infinite linear;
+}
+
+#react:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#nodejs:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#nodejs:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#php:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#php:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#mongodb:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#mongodb:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#mysql:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#mysql:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#sass:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#sass:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#bootstrap:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#bootstrap:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#materialui:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#materialui:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#materialize:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#materialize:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#firebase:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#firebase:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#adobe:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#adobe:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#vscode:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#vscode:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#git:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#git:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#trello:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#trello:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+#slack:hover .skills-img {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-animation: rotation 1.5s infinite linear;
+          animation: rotation 1.5s infinite linear;
+}
+
+#slack:hover .skills-btn {
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: block;
+  margin: auto;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    /*transform: rotateY(0deg);*/
+  }
+  20% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  60% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  70% {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    /*transform: rotateY(0deg);*/
+  }
+  20% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  60% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  70% {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@-webkit-keyframes rotationX {
+  0% {
+    /*transform: rotateY(0deg);*/
+  }
+  20% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes rotationX {
+  0% {
+    /*transform: rotateY(0deg);*/
+  }
+  20% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .h1-skills {
+    padding: 5% 0;
+  }
+  .col-6 {
+    width: 33.33%;
+  }
+  .resume-page-hight {
+    height: 1930px;
+  }
+  .skills-box {
+    height: 950px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .resume-page-hight {
+    height: 1750px;
+  }
+  .h1-resume {
+    margin: 5% 0;
+  }
+  .resume-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0% 5% 5% 5%;
+    text-align: left;
+  }
+  .resume-btn {
+    height: 40px;
+  }
+  .h1-skills {
+    padding: 3% 0;
+  }
+  .col-6 {
+    width: 25%;
+  }
+  .skills-box {
+    height: 800px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .resume-page-hight {
+    height: 1620px;
+  }
+  .h1-resume {
+    margin: 3% 0;
+  }
+  .resume-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0% 10% 2% 10%;
+    text-align: left;
+  }
+  .skills-box {
+    height: 720px;
+    width: 80%;
+    margin: 5% auto;
+  }
+  .col-6 {
+    width: 20%;
+  }
 }
 
 .h1-contact {
