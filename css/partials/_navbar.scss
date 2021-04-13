@@ -26,7 +26,7 @@ nav {
 		/*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 	}
 	//Sandwich toggle Sidebar
-	#open {
+	.toggle {
 		box-sizing: border-box;
 		color: #000000;
 		padding-left: 10px;
@@ -37,7 +37,9 @@ nav {
 		line-height: 50px;
 	}
 }
-
+.close {
+	display: none;
+}
 #toggle {
 	display: none;
 }
@@ -74,9 +76,12 @@ nav {
 
 		font-weight: bolder;
 		&:hover {
-			background-color: burlywood;
+			background-color: $primary;
+			width: 80%;
+			margin: 0 auto;
+			padding-top: 15px;
 			border-radius: 10px;
-			color: #000000;
+			color: $secondary;
 			transition: 0.3s;
 			transform: translateY(-12px);
 			transition-timing-function: ease-out;
