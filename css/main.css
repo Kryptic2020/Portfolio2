@@ -1,5 +1,11 @@
 nav {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   height: 90px;
   z-index: 10;
@@ -10,27 +16,28 @@ nav {
 		#93c2fa,
 		#ffffff
 	);*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /*Profile picture*/
 }
 
 nav img {
-  margin: auto;
+  margin: auto 0;
+  margin-left: 5%;
   width: 70px;
   height: 60px;
   border-radius: 30%;
   /*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 }
 
-nav label {
+nav #open {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  float: right;
+  color: #000000;
+  padding-left: 10px;
   margin: auto 0;
-  width: 50px;
-  font-size: 30px;
+  margin-right: 7%;
+  text-align: right;
+  font-size: 40px;
   line-height: 50px;
 }
 
@@ -40,10 +47,6 @@ nav label {
 
 #toggle:checked + .menu-items {
   display: block;
-}
-
-#open {
-  color: #000000;
 }
 
 .menu-items {
@@ -111,35 +114,38 @@ nav label {
   }
   .menu-items {
     position: relative;
-    display: block;
     background-image: none;
-    padding-top: 0px;
-    width: 83%;
-    height: 100%;
+    height: 90px;
+    width: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
     font-size: 1.3rem;
   }
   .menu-items a {
-    position: relative;
     display: block;
+    padding: 0;
+    margin: 0;
+    height: 90px;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: auto;
     text-decoration: none;
     font-weight: bolder;
   }
   .menu-items a:hover {
-    color: #000000;
+    padding-top: 30px;
+    color: #ffffff;
+    background-color: #000000;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     -webkit-transform: translateY(12px);
@@ -198,8 +204,8 @@ button:hover {
   position: absolute;
   height: 100px;
   width: 50px;
-  right: 15px;
-  top: 80px;
+  right: 5%;
+  top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

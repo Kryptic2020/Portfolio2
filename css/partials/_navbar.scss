@@ -1,6 +1,10 @@
+@import 'colors';
+
 //Header Navbar
 nav {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	height: 90px;
 	z-index: 10;
@@ -14,19 +18,22 @@ nav {
 	display: flex;
 	/*Profile picture*/
 	img {
-		margin: auto;
+		margin: auto 0;
+		margin-left: 5%;
 		width: 70px;
 		height: 60px;
 		border-radius: 30%;
 		/*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 	}
 	//Sandwich toggle Sidebar
-	label {
+	#open {
 		box-sizing: border-box;
-		float: right;
+		color: #000000;
+		padding-left: 10px;
 		margin: auto 0;
-		width: 50px;
-		font-size: 30px;
+		margin-right: 7%;
+		text-align: right;
+		font-size: 40px;
 		line-height: 50px;
 	}
 }
@@ -36,9 +43,6 @@ nav {
 }
 #toggle:checked + .menu-items {
 	display: block;
-}
-#open {
-	color: #000000;
 }
 
 //Sidebar - only for mobile layout
@@ -104,27 +108,28 @@ nav {
 	//navbar for tablet layout
 	.menu-items {
 		position: relative;
-		display: block;
 		background-image: none;
-		padding-top: 0px;
-		width: 83%;
-		height: 100%;
+		height: 90px;
+		width: 75%;
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
 		flex-direction: row;
-		justify-content: space-evenly;
 		font-size: 1.3rem;
 
 		a {
-			position: relative;
 			display: block;
+			padding: 0;
+			margin: 0;
+			height: 90px;
 			text-align: center;
-			width: 100%;
-			height: 100%;
-			padding: auto;
 			text-decoration: none;
 			font-weight: bolder;
 			&:hover {
-				color: #000000;
+				padding-top: 30px;
+				color: $secondary;
+				background-color: $primary;
 				transition: 0.3s;
 				transform: translateY(12px);
 				transition-timing-function: ease-out;
