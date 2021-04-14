@@ -1,0 +1,171 @@
+commit 6bc3335a2aaab206d187adc0be11a29bd3758226
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 14:17:52 2021 +1000
+
+    update SRI
+
+commit 99a8e1c3ca16f03f2b37783027912d6086e27e53
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 13:52:17 2021 +1000
+
+    update readme file
+
+commit 9679f36b36190def1ed2269f3d01f9cf48d550f0
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 13:46:26 2021 +1000
+
+    added readme file
+
+commit e2356927a4047a2b531026b850e0301ec83681f3
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 12:44:54 2021 +1000
+
+    small animation fixing on resume page
+
+commit d7fe41342b545b6cef2eed794ca4b49d95f31724
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 11:14:13 2021 +1000
+
+    navbar small issue fixed
+
+commit a6cb432cabf324129c4a0abdf9b2ccf209cabc18
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 11:02:41 2021 +1000
+
+    navbar active link inheritance issue fixed
+
+commit 7829fbf1e6b973925f3a74496a664677bc417a8f
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 14 10:00:59 2021 +1000
+
+    added animation to resume page and added form  api to contact page
+
+commit 1fbe92bd56225acb7a6c2977e1b2cb722d3eba8b
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 21:25:24 2021 +1000
+
+    added menu close icon, yet to be implemented
+
+commit 8afce4dafd42bcc91e7facbc9107e50b36efb5b8
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 21:05:46 2021 +1000
+
+    added animation to navbar
+
+commit cd7eecaeec65bf58fd143d752e7f837f2a41f545
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 19:41:19 2021 +1000
+
+    small responsive layout fixing blog items page
+
+commit b7b22b5a886668e85766a2a0fab4d28589491780
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 19:16:37 2021 +1000
+
+    sri added
+
+commit 8a785d82dee3048b05cd932b131b1ec19e66e715
+Merge: d7732bc dfdd4e2
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 18:12:46 2021 +1000
+
+    small responsive layout fixing
+
+commit dfdd4e24086f4be56e330bdfcd2cd8433d8d50a9
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 18:00:37 2021 +1000
+
+    responsive layout fixing
+
+commit d7732bc4553b929336134ddfebdfc5011820e2d9
+Merge: beb8224 4a90e82
+Author: Kryptic2020 <60334416+Kryptic2020@users.noreply.github.com>
+Date:   Tue Apr 13 17:24:30 2021 +1000
+
+    Merge pull request #5 from Kryptic2020/resume
+    
+    added page resume, contact, projects
+
+commit 4a90e821d8f16f4c1da7ebb71d8bd2e0edd972ac
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 17:22:34 2021 +1000
+
+    added page resume, contact, projects
+
+commit beb8224ba52c3adcbeabf709a54eecffd8f44e67
+Merge: deef212 f0de7da
+Author: Kryptic2020 <60334416+Kryptic2020@users.noreply.github.com>
+Date:   Tue Apr 13 09:20:51 2021 +1000
+
+    Merge pull request #4 from Kryptic2020/blog
+    
+    added semantics HTML and comments to HTML and CSS files
+
+commit f0de7dae0d9d6ed7b0f8e4639d09545e81f1a317
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 13 09:19:38 2021 +1000
+
+    added semantics HTML and comments to HTML and CSS files
+
+commit deef212937510ef4bb9b22d460392d65ce4b33af
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Mon Apr 12 15:56:38 2021 +1000
+
+    small fix
+
+commit 70a81235d56e78c906f8da92a17442cbb779baf9
+Merge: 2642caf 4d287e8
+Author: Kryptic2020 <60334416+Kryptic2020@users.noreply.github.com>
+Date:   Mon Apr 12 15:35:29 2021 +1000
+
+    Merge pull request #3 from Kryptic2020/about
+    
+    added about page
+
+commit 4d287e8ab21554c23b8579b3d97507b4711d7ba0
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Mon Apr 12 15:34:07 2021 +1000
+
+    added about page
+
+commit 2642caf294bb06b6eb617352d861906d32e76bde
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Mon Apr 12 13:22:17 2021 +1000
+
+    small fix
+
+commit 6422842ab66a818b0292776b3b204715007ae7a4
+Merge: 7854557 cadfa2b
+Author: Kryptic2020 <60334416+Kryptic2020@users.noreply.github.com>
+Date:   Sun Apr 11 23:35:12 2021 +1000
+
+    Merge pull request #2 from Kryptic2020/home
+    
+    added responsive layout
+
+commit cadfa2bd58c556f84c37f96b59191ad91a3344b1
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Sun Apr 11 23:33:52 2021 +1000
+
+    added responsive layout
+
+commit 78545570e4fe946d9ac0dd116f6f2d97a278f0bb
+Merge: 403e50f 40cf021
+Author: Kryptic2020 <60334416+Kryptic2020@users.noreply.github.com>
+Date:   Wed Apr 7 19:43:11 2021 +1000
+
+    Merge pull request #1 from Kryptic2020/home
+    
+    initial commit
+
+commit 40cf021ad2b02bd514527da29fa85688224ae409
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Wed Apr 7 19:41:07 2021 +1000
+
+    initial commit
+
+commit 403e50feb6b563388f424d46e6757bfae1fe6512
+Author: Edson Nascimento <aquenzitech@gmail.com>
+Date:   Tue Apr 6 18:50:35 2021 +1000
+
+    first commit
