@@ -17,7 +17,7 @@
 }
 
 .resume-page-hight {
-	height: 2330px;
+	height: 2530px;
 }
 
 //skill box component
@@ -26,7 +26,7 @@
 	width: 90%;
 	margin: 10% auto;
 	border-radius: 10px;
-	height: 1380px;
+	height: 1580px;
 }
 .h1-skills {
 	padding: 10% 0;
@@ -60,224 +60,115 @@
 		opacity: 0.8;
 	}
 }
+.label {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bolder;
+}
 .skills-btn {
 	width: 120px;
 	height: 30px;
-	display: none;
+	opacity: 0;
+	padding: auto;
+	text-align: center;
+	background-color: $primary;
+	color: $secondary;
+	border-radius: 10px;
+
+	&:hover {
+		background-color: $hovering;
+		transition: 0.5s ease-in-out;
+		transform: scale(1.1);
+		opacity: 0.8;
+	}
 }
+
 //skill icons component
-#html5 {
+
+@mixin icon {
 	&:hover .skills-img {
 		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
+		animation: rotation 1.5s;
 	}
 	&:hover .skills-btn {
-		display: block;
+		opacity: 1;
 		margin: auto;
-		z-index: 5;
 	}
+}
+
+#html5 {
+	@include icon();
 }
 
 #css3 {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #js {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #react {
+	@include icon;
 	&:hover .skills-img {
-		animation: rotationX 3.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
+		animation: rotationX 1.5s;
 	}
 }
-
 #nodejs {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #php {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #mongodb {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #mysql {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #sass {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #bootstrap {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #materialui {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #materialize {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #firebase {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #adobe {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #vscode {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #git {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #trello {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 
 #slack {
-	&:hover .skills-img {
-		transform: rotateY(360deg);
-		animation: rotation 1.5s infinite linear;
-	}
-	&:hover .skills-btn {
-		transition: 2s;
-		display: block;
-		margin: auto;
-	}
+	@include icon();
 }
 //skill icons animations
 
@@ -327,17 +218,17 @@
 		width: 33.33%;
 	}
 	.resume-page-hight {
-		height: 1930px;
+		height: 2100px;
 	}
 	.skills-box {
-		height: 950px;
+		height: 1100px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	//tablet layout
 	.resume-page-hight {
-		height: 1750px;
+		height: 1900px;
 	}
 	.h1-resume {
 		margin: 5% 0;
@@ -359,14 +250,14 @@
 		width: 25%;
 	}
 	.skills-box {
-		height: 800px;
+		height: 950px;
 		width: 80%;
 	}
 }
 @media screen and (min-width: 992px) {
 	//desktop layout
 	.resume-page-hight {
-		height: 1620px;
+		height: 1720px;
 	}
 	.h1-resume {
 		margin: 3% 0;
@@ -380,7 +271,7 @@
 	}
 
 	.skills-box {
-		height: 720px;
+		height: 820px;
 		width: 80%;
 		margin: 5% auto;
 	}
