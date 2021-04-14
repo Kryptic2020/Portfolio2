@@ -72,6 +72,7 @@ nav {
 		width: 100%;
 		height: 60px;
 		text-decoration: none;
+		transition: 0.5s ease-in-out;
 
 		font-weight: bolder;
 		&:hover {
@@ -81,9 +82,7 @@ nav {
 			padding-top: 15px;
 			border-radius: 10px;
 			color: $secondary;
-			transition: 0.3s;
 			transform: translateY(-12px);
-			transition-timing-function: ease-out;
 		}
 		@media screen and (max-width: 850px) {
 			font-size: 1em;
@@ -106,7 +105,6 @@ nav {
 	.current-page-link {
 		text-decoration: overline;
 		&:hover {
-			opacity: 0.2;
 		}
 	}
 	//navbar for tablet layout

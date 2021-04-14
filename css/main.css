@@ -76,6 +76,8 @@ nav #open {
   width: 100%;
   height: 60px;
   text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   font-weight: bolder;
 }
 
@@ -86,12 +88,8 @@ nav #open {
   padding-top: 15px;
   border-radius: 10px;
   color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
   -webkit-transform: translateY(-12px);
           transform: translateY(-12px);
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
 }
 
 @media screen and (max-width: 850px) {
@@ -114,7 +112,7 @@ nav #open {
     text-decoration: overline;
   }
   .current-page-link:hover {
-    opacity: 0.2;
+    display: none;
   }
   .menu-items {
     position: relative;
