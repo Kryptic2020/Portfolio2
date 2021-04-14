@@ -3,6 +3,17 @@
 .blogposts-page-hight {
 	min-height: 3300px;
 }
+.blogposts-box {
+	background-image: linear-gradient(
+		to top left,
+		$warning,
+		$warning,
+		$secondary
+	);
+	width: 90%;
+	border-radius: 10px;
+	margin: 20px auto;
+}
 .blogposts-text {
 	line-height: 30px;
 	padding: 20px 15px;

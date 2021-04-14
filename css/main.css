@@ -596,6 +596,14 @@ button:hover {
   min-height: 3300px;
 }
 
+.blogposts-box {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#93c2fa), color-stop(#93c2fa), to(#ffffff));
+  background-image: linear-gradient(to top left, #93c2fa, #93c2fa, #ffffff);
+  width: 90%;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
 .blogposts-text {
   line-height: 30px;
   padding: 20px 15px;
