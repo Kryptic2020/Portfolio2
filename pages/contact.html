@@ -45,10 +45,10 @@
 					<a href="./projects.html">Projects</a>
 					<a href="./blog.html">Blog</a>
 					<a href="./resume.html">Resume</a>
-					<span class="current-page-link"
-						><a href="./contact.html"
-							>Contact</a
-						></span
+					<a href="./contact.html"
+						><span class="current-page-link"
+							>Contact</span
+						></a
 					>
 				</div>
 			</nav>
@@ -60,19 +60,48 @@
 
 		<!--Page Content: Contact form-->
 
-		<section class="contact-container">
-			<label class="contact-label">Name:</label>
-			<input placeholder="Please enter your name" />
-			<label class="contact-label">Email:</label>
-			<input placeholder="example@example.com" />
-			<label class="contact-label">Message:</label>
-			<textarea
-				rows="3"
-				placeholder="Hi Edson,..."
-			></textarea>
-			<button class="contact-button">
-				<h3>SUBMIT</h3>
-			</button>
+		<section>
+			<form
+				action="https://formspree.io/f/xvodoeaq"
+				method="POST"
+			>
+				<div class="contact-container">
+					<label for="name" class="contact-label"
+						>Name:</label
+					>
+					<input
+						type="text"
+						id="name"
+						placeholder="Please enter your name"
+					/>
+					<label for="email" class="contact-label"
+						>Email:</label
+					>
+					<input
+						type="text"
+						name="_replyto"
+						id="email"
+						placeholder="example@email.com"
+					/>
+					<label
+						for="message"
+						class="contact-label"
+						>Message:</label
+					>
+					<textarea
+						name="message"
+						id="message"
+						rows="3"
+						placeholder="Hi Edson,..."
+					></textarea>
+					<button
+						type="submit"
+						class="contact-button"
+					>
+						<h3>SUBMIT</h3>
+					</button>
+				</div>
+			</form>
 		</section>
 		<!--themes Settings / Dark or Light-->
 		<div class="themes-container">
