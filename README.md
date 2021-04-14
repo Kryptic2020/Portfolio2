@@ -1,10 +1,10 @@
 # Portfolio Website
 
-# Portfolio Website Link [Portfolio Website](https://edson-portfolio.netlify.app/)
+### Portfolio Website Link [Portfolio Website](https://edson-portfolio.netlify.app/)
 
-# Github Repo Link [Github Repo](https://github.com/Kryptic2020/Portfolio2)
+### Github Repo Link [Github Repo](https://github.com/Kryptic2020/Portfolio2)
 
-# Description:
+### Description:
 
 -   **The purpose** of this Portfolio Website is to show my accomplishments, experiences, skills, and attributes. Also to highlights and showcases samples of some of my best work, along with life experiences, values and achievements.
 
@@ -14,13 +14,13 @@
     ![Sitemap](Portfolio.png)
 
 -   **Screen shoots:**
-    ![Home](home page.png)
-    ![About](about page.png)
-    ![Projects](projects page.png)
-    ![Bloglist](bloglist page.png)
-    ![Blogitem](blog item page.png)
-    ![Resume](resume page.png)
-    ![Contact](contact page.png)
+    ![Home](home.png)
+    ![About](about.png)
+    ![Projects](projects.png)
+    ![Bloglist](bloglist.png)
+    ![Blogitem](blogitem.png)
+    ![Resume](resume.png)
+    ![Contact](contact.png)
 
 -   **Target audience:** IT industry, Companies, Small business and individual who needs a website.
 
