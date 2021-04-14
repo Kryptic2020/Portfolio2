@@ -26,7 +26,7 @@ nav {
 		/*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 	}
 	//Sandwich toggle Sidebar
-	.toggle {
+	#open {
 		box-sizing: border-box;
 		color: #000000;
 		padding-left: 10px;
@@ -37,13 +37,12 @@ nav {
 		line-height: 50px;
 	}
 }
-.close {
-	display: none;
-}
 #toggle {
 	display: none;
+	width: 10px;
 }
-#toggle:checked + .menu-items {
+
+#toggle:checked ~ .menu-items {
 	display: block;
 }
 

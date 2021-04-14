@@ -29,7 +29,7 @@ nav img {
   /*	border: 3px solid rgba(0, 0, 0, 0.3);*/
 }
 
-nav .toggle {
+nav #open {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #000000;
@@ -41,15 +41,12 @@ nav .toggle {
   line-height: 50px;
 }
 
-.close {
-  display: none;
-}
-
 #toggle {
   display: none;
+  width: 10px;
 }
 
-#toggle:checked + .menu-items {
+#toggle:checked ~ .menu-items {
   display: block;
 }
 
@@ -205,6 +202,11 @@ button {
 
 button:hover {
   background-color: #7a7a7a;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .themes-container {
@@ -487,7 +489,11 @@ button:hover {
 }
 
 .blog-box:hover {
-  opacity: 0.7;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 0.8;
 }
 
 .blog-img {
@@ -747,6 +753,14 @@ button:hover {
   transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
 }
 
+.skills-img-box:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+  opacity: 0.8;
+}
+
 .skills-btn {
   width: 120px;
   height: 30px;
@@ -763,6 +777,7 @@ button:hover {
 #html5:hover .skills-btn {
   display: block;
   margin: auto;
+  z-index: 5;
 }
 
 #css3:hover .skills-img {

@@ -54,6 +54,11 @@
 	background-color: #ffffff;
 	border-radius: 50%;
 	transition: transform 0.7s ease-in-out;
+	&:hover {
+		transition: 0.5s ease-in-out;
+		transform: scale(1.2, 1);
+		opacity: 0.8;
+	}
 }
 .skills-btn {
 	width: 120px;
@@ -69,6 +74,7 @@
 	&:hover .skills-btn {
 		display: block;
 		margin: auto;
+		z-index: 5;
 	}
 }
 
